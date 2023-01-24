@@ -1,0 +1,10 @@
+name: TransferMe
+version: '${project.version}'
+main: me.hydro.transfer.TransferMe
+prefix: TransferMe
+authors: [ Hydrogen, Exro ]
+description: Simple implementation of LunarTransfer
+commands:
+  transfer:
+    usage: /transfer <ip>
+    description: Sends a transfer packet to Lunar Client to the provided IP
